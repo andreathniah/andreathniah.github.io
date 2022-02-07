@@ -44,6 +44,13 @@ body > div:first-child > div:first-child > div {
   font-weight: 300;
 }
 
+.main .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 30vh;
+}
+
 .header > .go-home {
   margin-bottom: 2rem;
 }
@@ -92,6 +99,10 @@ body > div:first-child > div:first-child > div {
     width: inherit;
     align-items: center;
     height: 80vh;
+  }
+
+  .main .footer {
+    height: 0vh;
   }
 
   .footer nav {
