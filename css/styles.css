@@ -28,7 +28,7 @@ body > div:first-child > div:first-child > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  height: 55vh;
 }
 
 .title > div {
@@ -91,6 +91,7 @@ body > div:first-child > div:first-child > div {
   .title {
     width: inherit;
     align-items: center;
+    height: 80vh;
   }
 
   .footer nav {
